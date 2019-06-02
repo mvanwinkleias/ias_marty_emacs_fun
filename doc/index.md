@@ -66,19 +66,28 @@ A tutorial for emacspeak can be found here:
 
 * https://github.com/tvraman/emacspeak/blob/master/info/tutorial.org
 
-# Terminals in Emacs
+# Shells in Emacs
 
-There is something to learn first:
-
-* When trying to run emacs commands when you have
-the terminal window focussed, you use **C-c (whatever)** to
-execute the emacs command.
 
 To run a shell:
 
 ```
 M-x shell
 ```
+
+## Terminals vs Shells
+
+A "terminal" is treated differently than a shell.
+
+To run a terminal:
+```
+M-x term
+```
+
+* When trying to run emacs commands when you have
+the terminal window focussed, you use **C-c (whatever)** to
+execute the emacs command.
+
 
 ## Emacspeak
 
