@@ -60,6 +60,7 @@ The manual for EWW can be found here:
 
 * https://www.gnu.org/software/emacs/manual/html_node/eww/
 
+
 ## Using Emacspeak
 
 A tutorial for emacspeak can be found here:
@@ -112,8 +113,16 @@ Repeat what was last said:
 C-e a
 ```
 
+## Reading Pages at a Time
+
+Read a page:
 ```
 emacspeak-speak-page (&optional arg)
 C-e [
+```
+
+Go to next page:
+```
+C-v
 ```
 
