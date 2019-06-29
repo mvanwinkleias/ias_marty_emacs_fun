@@ -35,8 +35,13 @@ C-x 3
 To change between windows:
 
 ```
-C-x o
+C-x o - go to next window
 ```
+
+```
+C-- C-x o - go to previous window
+```
+
 
 To eliminate the current window:
 ```
@@ -87,6 +92,11 @@ To run a shell:
 
 ```
 M-x shell
+```
+
+To run multiple shells:
+```
+C-u M-x shell
 ```
 
 ## Terminals vs Shells
