@@ -60,6 +60,19 @@ The manual for EWW can be found here:
 
 * https://www.gnu.org/software/emacs/manual/html_node/eww/
 
+### EWW - Basic Navigation
+
+```
+G - Enter new URL or key words
+```
+
+```
+l (eww-back-url) - back
+```
+
+```
+r (eww-forward-url)
+```
 
 ## Using Emacspeak
 
