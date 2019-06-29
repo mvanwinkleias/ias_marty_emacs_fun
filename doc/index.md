@@ -8,6 +8,12 @@ To view a list of open buffers:
 C-x C-b
 ```
 
+To open a buffer list in the selected window:
+
+```
+M-x buffer-menu
+```
+
 To switch to a buffer:
 ```
 C-x b
@@ -99,7 +105,9 @@ To run multiple shells:
 C-u M-x shell
 ```
 
-## Terminals vs Shells
+## Terminals vs Shells vs Eshell
+
+Apparently, there's **eshell** as well
 
 A "terminal" is treated differently than a shell.
 
