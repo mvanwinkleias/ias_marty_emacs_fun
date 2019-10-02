@@ -157,3 +157,11 @@ Go to next page:
 C-v
 ```
 
+To change the rate of speech / speed:
+
+```
+C-e d r
+```
+
+* The options using *C-e d [0-9] are very slow
+
